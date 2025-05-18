@@ -111,7 +111,7 @@ export default function ObservationDetail() {
   });
   
   return (
-    <main className="min-h-screen bg-[#1A1A1A] text-white pt-28">
+    <main className="min-h-screen bg-[#1A1A1A] text-white">
       <Header />
       
       <div className="container mx-auto py-8 px-4 sm:px-6">
