@@ -1,0 +1,28 @@
+.header {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.contentContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add padding to the main content area to prevent overlap */
+.mainContent {
+  padding-top: 70px; /* Adjust this value based on the actual height of your header */
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+  .mainContent {
+    padding-top: 60px;
+  }
+}
